@@ -1,0 +1,20 @@
+[
+  {
+    "role": "Software Development Engineer",
+    "organisation": "Eazybe Software India Pvt. Ltd.",
+    "url":"https://eazybe.com/",
+    "startDate": "Apr, 2021",
+    "endDate": "Oct, 2023",
+    "experiences": ["Worked on Whatsapp web extension", "Worked on landing page"],
+    "imageSrc": "https://assets-global.website-files.com/64cb8fe9dae4f2e5a069eb37/64cc83288c8910677981eddd_logo.svg"
+  },
+  {
+    "role": "Junior Full Stack(MERN) Developer",
+    "organisation": "Sensegrass Inc.",
+    "url":"https://sensegrass.com/",
+    "startDate": "Aug, 2020",
+    "endDate": "Jan, 2021",
+    "experiences": ["Worked on Frontend", "Worked on Backend"],
+    "imageSrc": "https://sensegrass.com/_next/static/media/logo.46b3e9fb.svg"
+  }
+]

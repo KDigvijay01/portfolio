@@ -1,0 +1,40 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "assets/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "assets/skills/css.png"
+  },
+
+  {
+    "title": "React",
+    "imageSrc": "assets/skills/react.png"
+  },
+  {
+    "title": "Next",
+    "imageSrc": "assets/skills/nextjs-icon.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "assets/skills/tailwind-css-icon.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "assets/skills/redux-icon.png"
+  },
+  {
+    "title": "Webpack",
+    "imageSrc": "assets/skills/webpack-icon.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "assets/skills/node.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "assets/skills/mongodb.png"
+  }
+ 
+]

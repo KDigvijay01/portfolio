@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+
+.aboutContainer {
+    /* Add your styles here */
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    z-index: 1;
+    border-radius: 15px;
+    margin: 0 10%;
+    padding: 73px;
+    margin-top: 129px;
+  }
+  
+  .aboutTitle {
+    /* Add your styles here */
+    font-family: "Outfit";
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    color: var(--color-text);
+    text-transform: uppercase;
+
+  }
+  
+  .aboutContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .aboutImage {
+    /* Add your styles here */
+    width: 35%;
+  }
+  
+  .aboutItems {
+    /* Add your styles here */
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .aboutItem {
+    /* Add your styles here */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+
+  .aboutItem:hover {
+    background-size: 100% 100%;
+  }
+
+  .aboutItemText {
+    /* Add your styles here */
+
+  }
+  
+  .aboutItemText h3 {
+    /* Add your styles here */
+    font-family: "Outfit";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+
+  }
+  
+  .aboutItemText p {
+    /* Add your styles here */
+
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+
+  @media screen and (max-width: 830px){
+    .aboutContainer{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .aboutContent{
+        flex-direction: column;
+    }
+
+    .aboutImage{
+        display: none;
+    }
+    .aboutItems{
+        margin-top: 29px;
+    }
+    .aboutItem{
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }

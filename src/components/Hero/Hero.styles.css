@@ -1,0 +1,128 @@
+@import "../../vars.css";
+
+.hero_section_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 49px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero_section_container .leftContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+  }
+  
+  /* .hero_section_container .rightContent {
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid blue;
+    text-align: end;
+   
+  } */
+  
+  .hero_section_container .hero_title {
+    font-family: var(--font-roboto);
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 33px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero_section_container .description {
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-bottom: 52px;
+  }
+  
+  .hero_section_container .contact_me_button {
+    font-family: "Outfit";
+    font-size: 30px;
+    font-weight: 600;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    padding: 17px 26px;
+    text-decoration: none;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .hero_section_container .contact_me_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero_section_container .heroImage {
+    /* border: 1px solid blue; */
+    width: 50%;
+    z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* padding-left: 50px; */
+  }
+
+  @keyframes floating{
+    0%{
+      transform: translate(0, 0);
+
+    }
+    50%{
+      transform: translate(0, 10px);
+    }
+
+    100%{
+      transform: translate(0, -0);
+    }
+  }
+
+  .topBlur{
+    position:absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    background: rgba(25, 55, 109, 0.7);
+    top: -128px;
+    left: -10vw;
+    z-index: 0;
+    border-radius: 764px;
+    filter: blur(100px);
+  }
+
+  .bottomBlur{
+    position:absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    background: rgba(25, 55, 109, 0.7);
+    top: 246px;
+    right: -25vw;
+    z-index: 0;
+    border-radius: 764px;
+    filter: blur(100px);
+  }
+
+
+
+  @media screen and (max-width:830px) {
+
+    .hero_section_container {
+      flex-direction: column-reverse;
+    }
+
+    .leftContent {
+      align-items: center !important;
+    }
+  }
+  

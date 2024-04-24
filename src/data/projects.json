@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Promptopia",
+    "imageSrc": "assets/projects/promptopia.png",
+    "description": "Promptopia facilitates creative prompt management and sharing, focusing on secure authentication, efficient operations, sleek design, collaboration, and high-performance deployment.",
+    "skills": ["Next Js", "Tailwind", "NextAuth", "MongoDB"],
+    "demo": "https://promptopia-lbe5bqib6-digvijay-kumars-projects.vercel.app/",
+    "source": "https://github.com/KDigvijay01/Promptopia.git"
+  },
+  {
+    "title": "Flipcart Clone",
+    "imageSrc": "assets/projects/flipcartclone-app.png",
+    "description": "Crafted an immersive Flipkart clone using React.js, Node.js, Express.js, MongoDB. Utilized Material-UI for aesthetics, Redux for state management, ensuring scalability. GitHub and Vercel deployed.",
+    "skills": ["React","Redux", "Express", "Node", "Mongodb", "M UI"],
+    "demo": "https://client-flipcart-clone-8g86.vercel.app/",
+    "source": "https://github.com/KDigvijay01/FlipkartCloneApp.git"
+  },
+  {
+    "title": "React Admin Dashboard",
+    "imageSrc": "assets/projects/dashboard-app.png",
+    "description": "Crafted for visually appealing and dynamic dashboard experience with seamless collaboration and immersive design, leveraging Tailwind CSS and Syncfusion.",
+    "skills": ["React", "Syncfusion", "Taiwind css", "ContextApi"],
+    "demo": "https://65b91c57195e360a50a128bd--cerulean-souffle-c47ca8.netlify.app/",
+    "source": "https://github.com/KDigvijay01/React-Admin-Dashboard.git"
+  },
+  {
+    "title": "Ecommerce-app",
+    "imageSrc": "assets/projects/ecommerce-app.png",
+    "description": "App gives an immersive shopping experience, featuring a fully-functional shopping cart.",
+    "skills": ["React", "Redux", "Node", "Css"],
+    "demo": "https://64fef1e95cf4cf629c1834d3--meek-cat-70c13d.netlify.app",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Recipe App",
+    "imageSrc": "assets/projects/recipe_app.png",
+    "description": "App facilitating seamless recipe search and discovery, enhancing culinary experiences effortlessly.",
+    "skills": ["React", "Scss"],
+    "demo": "https://frabjous-starburst-f45fe7.netlify.app/",
+    "source": "https://github.com/KDigvijay01/Recipe_App.git"
+  }
+]
