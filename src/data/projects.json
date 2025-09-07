@@ -1,5 +1,21 @@
 [
   {
+    "title": "Syncora",
+    "imageSrc": "assets/projects/syncora.png",
+    "description": "Syncora.ai is an agentic synthetic-data platform that turns private or regulated datasets into model-ready, privacy-safe synthetic twins—via autonomous AI agents.",
+    "skills": ["React Js", "Tailwind", "Redux", "Javascript"],
+    "demo": "https://app.syncora.ai/home",
+    "source": "https://app.syncora.ai/home/dashboard"
+  },
+  {
+    "title": "Eazybe",
+    "imageSrc": "assets/projects/eazybe.png",
+    "description": "Eazybe is a Chrome extension that transforms WhatsApp Web into a CRM-powered workspace.",
+    "skills": ["React JS", "Javascript", "OAUTH", "Webpack"],
+    "demo": "https://chromewebstore.google.com/detail/eazybe-best-whatsapp-web/clgficggccelgifppbcaepjdkklfcefd",
+    "source": "https://chromewebstore.google.com/detail/eazybe-best-whatsapp-web/clgficggccelgifppbcaepjdkklfcefd"
+  },
+  {
     "title": "Promptopia",
     "imageSrc": "assets/projects/promptopia.png",
     "description": "Promptopia facilitates creative prompt management and sharing, focusing on secure authentication, efficient operations, sleek design, collaboration, and high-performance deployment.",
