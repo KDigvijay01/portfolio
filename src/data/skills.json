@@ -1,4 +1,8 @@
 [
+   {
+    "title": "React JS",
+    "imageSrc": "assets/skills/react.png"
+  },
   {
     "title": "HTML",
     "imageSrc": "assets/skills/html.png"
@@ -6,15 +10,6 @@
   {
     "title": "CSS",
     "imageSrc": "assets/skills/css.png"
-  },
-
-  {
-    "title": "React",
-    "imageSrc": "assets/skills/react.png"
-  },
-  {
-    "title": "Next",
-    "imageSrc": "assets/skills/nextjs-icon.png"
   },
   {
     "title": "Tailwind",
@@ -24,6 +19,15 @@
     "title": "Redux",
     "imageSrc": "assets/skills/redux-icon.png"
   },
+   {
+    "title": "Javascript",
+    "imageSrc": "assets/skills/js.png"
+  },
+   {
+    "title": "Typescript",
+    "imageSrc": "assets/skills/typescript.png"
+  },
+
   {
     "title": "Webpack",
     "imageSrc": "assets/skills/webpack-icon.png"
@@ -35,6 +39,14 @@
   {
     "title": "MongoDB",
     "imageSrc": "assets/skills/mongodb.png"
+  },
+  {
+    "title": "Next JS",
+    "imageSrc": "assets/skills/nextjs-icon.png"
+  },
+  {
+    "title": "GSAP",
+    "imageSrc": "assets/skills/gsap.png"
   }
  
 ]
